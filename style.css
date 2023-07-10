@@ -68,10 +68,11 @@
     background-size: cover;
     color: wheat;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     padding: 30px;
-    
+}
+.left-side-container{
+    padding: 30px;
 }
 .icon{
     width: 70px;
@@ -87,8 +88,16 @@
     border-radius: 5px;
     /* box-shadow: 4px 4px 10px gray; */
 }
+.service-title{
+    margin-top: 10px;
+}
 .service-description{
     width: 50%;
+    margin-top: 10px;
+}
+.service-list{
+    margin-top: 10px;
+    list-style-position: inside;
 }
 .first-two-box{
     display: flex;
@@ -104,6 +113,7 @@
     display: flex;
     gap: 30px;
     align-items: center;
+    padding-top: 20px;
 }
 .profile-container{
     display: flex;
